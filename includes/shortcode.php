@@ -48,10 +48,12 @@ function supersaas_button_hook( $atts ) {
 		}
 		
 		$id = $current_user->ID;
-		
+
+		# <-- Custom code to check for old Joomla ID
 		if (isset($current_user->supersaas_id)) {
 			$id = $current_user->supersaas_id;
 		}
+		# end custom code -->
 
 		$account = str_replace( ' ', '_', $account );
 		$out = '<form method="post" action=' . $api_endpoint . '>';
