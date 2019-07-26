@@ -46,8 +46,9 @@ function supersaas_button_hook( $atts ) {
 		} else {
 			$api_endpoint = $protocol . rtrim( $domain, '/' ) . '/api/users';
 		}
-		
-		$id = $current_user->ID;
+
+		$prefix = 990000;
+		$id = $prefix + $current_user->ID;
 
 		# <-- Custom code to check for old Joomla ID
 		if (isset($current_user->supersaas_id)) {

@@ -10,8 +10,8 @@
 Plugin Name: SuperSaaS Login
 Plugin URI:  http://www.supersaas.com/tutorials/wordpress_appointment_scheduling
 Description: This module displays a 'Book now' button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice. Works with both the free and paid versions of SuperSaaS.
-Version:     1.9
-Author:      SuperSaaS
+Version:     999
+Author:      Modified by: J. Wellner
 Author URI:  http://www.supersaas.com
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
